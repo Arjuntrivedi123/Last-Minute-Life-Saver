@@ -20,7 +20,7 @@ Most users struggle with:
 Existing tools notify users but do not help them decide what to do next.
 
 
-## 💡 Solution
+## Solution
 
 This project introduces an AI-assisted task management system that:
 - Collects user tasks and deadlines
@@ -29,7 +29,7 @@ This project introduces an AI-assisted task management system that:
 - Helps users focus on high-impact work first
 
 
-## ✨ Key Features
+## Key Features
 
 - Task input with deadline tracking  
 - AI-based priority analysis  
@@ -71,12 +71,11 @@ User Input → AI Processing → Priority Analysis → Structured Plan → Outpu
 ## Deployment
 
 Live Demo:  
-👉 *(Add your hosted link here)*
+(Add your hosted link here)
 
 GitHub Repo:  
-👉 *(Add your repository link here)*
+(https://github.com/Arjuntrivedi123/Last-Minute-Life-Saver)
 
----
 
 ## Impact
 
