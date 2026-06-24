@@ -51,7 +51,7 @@ Create:
 5. Simple explanation
 `;
 
-    const API_KEY = "AQ.Ab8RN6Lp6rfwbPmL6reH6L6QZ7mI4IjAzX_6fS8ssP6TQQHExA";
+    const API_KEY = "AQ.Ab8RN6I6rMZFAamGzu_p5IAs8ie2wKgT7BvV5Z7g6zVfWiSViA";
 
     try {
         const response = await fetch(
