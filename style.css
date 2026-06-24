@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* main container */
+.app {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #38bdf8;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+/* cards */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* highlight card */
+.highlight {
+    border: 1px solid #38bdf8;
+}
+
+/* inputs */
+.inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #334155;
+    color: white;
+}
+
+button:hover {
+    background: #475569;
+}
+
+.primary {
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+}
+
+.primary:hover {
+    background: #0ea5e9;
+}
+
+/* task list */
+.list {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+/* AI result */
+.result {
+    margin-top: 15px;
+    white-space: pre-wrap;
+    color: #e2e8f0;
+}

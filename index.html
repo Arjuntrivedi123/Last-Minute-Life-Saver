@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Last Minute Life Saver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header>
+            <h1>⏳ Last Minute Life Saver</h1>
+            <p>AI-powered productivity companion for deadlines & tasks</p>
+        </header>
+
+        <!-- INPUT SECTION -->
+        <section class="card">
+
+            <h2>Add New Task</h2>
+
+            <div class="inputs">
+                <input type="text" id="task" placeholder="Enter your task">
+                <input type="datetime-local" id="deadline">
+            </div>
+
+            <button onclick="addTask()">➕ Add Task</button>
+
+        </section>
+
+        <!-- TASK LIST -->
+        <section class="card">
+
+            <h2>📋 Your Tasks</h2>
+            <div id="taskList" class="list"></div>
+
+        </section>
+
+        <!-- AI ACTION -->
+        <section class="card highlight">
+
+            <h2>🤖 AI Planner</h2>
+
+            <button class="primary" onclick="generatePlan()">
+                Generate Smart Plan
+            </button>
+
+            <div id="result" class="result"></div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
