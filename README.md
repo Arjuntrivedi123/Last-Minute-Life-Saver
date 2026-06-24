@@ -71,7 +71,7 @@ User Input → AI Processing → Priority Analysis → Structured Plan → Outpu
 ## Deployment
 
 Live Demo:  
-(Add your hosted link here)
+(https://arjuntrivedi123.github.io/Last-Minute-Life-Saver/)
 
 GitHub Repo:  
 (https://github.com/Arjuntrivedi123/Last-Minute-Life-Saver)
