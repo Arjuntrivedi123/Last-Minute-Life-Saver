@@ -65,7 +65,28 @@ User Input → AI Processing → Priority Analysis → Structured Plan → Outpu
 
 - index.html → UI structure  
 - style.css → UI design and layout  
-- script.js → AI integration and logic  
+- script.js → AI integration and logic
+
+## Setup
+
+Before running the project, you need your own Google Gemini API key.
+
+1. Visit **Google AI Studio** and generate a free Gemini API key.
+2. Open `script.js`.
+3. Replace:
+
+``javascript
+const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+
+with:
+``javascript
+const API_KEY = "YOUR_ACTUAL_API_KEY";
+``
+
+4. Save the file and open `index.html` in your browser.
+
+> **Note:** The API key is intentionally not included in this repository for security reasons. Please use your own Gemini API key to run the project.
+
 
 
 ## Deployment
