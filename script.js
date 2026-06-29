@@ -51,7 +51,8 @@ Create:
 5. Simple explanation
 `;
 
-    const API_KEY = "AQ.Ab8RN6JEzWSpr4I2mApkDs__cDBD0H73VcL6PoM4i6I57tKDAw";
+   // Paste your Gemini API key below before running the project
+     const API_KEY = "YOUR_GEMINI_API_KEY_HERE";
 
     try {
         const response = await fetch(
